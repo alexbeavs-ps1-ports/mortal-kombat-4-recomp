@@ -7,6 +7,9 @@ id = "SLUS-00605"
 region = "USA"
 players = 2
 exe = "disc/SLUS_006.05"
+disc = "disc/Mortal Kombat 4 (USA).cue"
+discs = ["disc/Mortal Kombat 4 (USA).cue"]
+disc_serials = ["SLUS-00605"]
 load_address = "0x00010000"
 entry_pc = "0x00010008"
 text_size = "0x00107000"
@@ -15,8 +18,8 @@ stack_base = "0x801FFFF0"
 # Digests are for data Track 01 (first BINARY FILE / TRACK 01).
 [prepare_disc]
 out_dir = "disc"
-bin_name = "disc1.bin"
-cue_name = "disc1.cue"
+bin_name = "Mortal Kombat 4 (USA).bin"
+cue_name = "Mortal Kombat 4 (USA).cue"
 boot_exe = "SLUS_006.05"
 known_sizes = [718112640]
 known_md5 = [
@@ -30,6 +33,7 @@ known_crc32 = [
 ]
 
 [recompiler]
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true

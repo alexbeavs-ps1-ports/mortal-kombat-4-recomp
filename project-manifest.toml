@@ -1,0 +1,15 @@
+[project]
+name = "Mortal Kombat 4"
+slug = "mortal-kombat-4-usa"
+retail_id = "SLUS-00605"
+region = "USA"
+
+[bios]
+required = true
+profile = "SCPH1001"
+size = 524288
+sha256 = "71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3"
+
+[retail_identity]
+disc_count = 1
+serials = ["SLUS-00605"]
