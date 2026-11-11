@@ -1,2 +1,2 @@
-psxrecomp=setup-host-retail-bios-v2 (eecf3b2a4ee3148f01f8f92b512930fd6307d82e; Alexbeav/psxrecomp, based on f23c5ba1a220fe1ca8818cc48c026d6c2f7f2c64)
-recomp-ui=87bbf43 (87bbf43c419c16b97bf433a84d600969159e2e84)
+psxrecomp=7011e0f (7011e0f72401f73bcd473c74232893a9749797c9)
+recomp-ui=14799da (14799da234db1436306636b64436233a3ec6885c)
